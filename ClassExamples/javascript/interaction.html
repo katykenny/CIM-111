@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Interaction Example</title>
+
+    <style media="screen">
+      img{
+        Width:300px
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1 id="colorChange">Click here to change background color</h1>
+    <h1 id="colorChange2">Click here to change background to orange</h1>
+
+    <ul>
+      <li id="info1" class="info">info1</li>
+      <li id="info2" class="info">info2</li>
+      <li id="info3" class="info">info3</li>
+    </ul>
+    <p id="addinfo"></p>
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        // All code goes in here
+        $("#colorChange").click(function(){
+
+        $("body").css("background-color", "blue");
+
+        });//end of colorChange.click
+        $("#colorChange2").click(function(){
+          $("body").css("background-color", "orange");
+
+        });//end of colorChange2.click
+
+        $("#info1").mouseenter(funtion(){
+          $("#addinfo").html("Hello all");
+        });//end of info1 mouseenter
+
+        $("#info2").mouseenter(function(){
+
+          $("#addinfo").html("<strong>this is bold</strong>");
+        })
+
+        $("info3").mouseenter(funtion(){
+
+          $("#addinfo").html("<img src='https://farm3'alt='image1'>")
+
+
+        });//end of info3 mouseenter
+
+        $("#info1").mouseleave(function(){
+          $("addinfo").html("");
+        });
+
+        $".info".mouseleave(function(){
+          $("#addinfo").html("");
+        })
+    });
+    </script>
+
+  </body>
+</html>

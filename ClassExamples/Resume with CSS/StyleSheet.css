@@ -1,0 +1,92 @@
+body {
+    /*new CSS Property */
+  background-image: url("https://github.com/katykenny/CIM-111/blob/master/ClassExamples/Images/Portrait.png?raw=true");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  width: 100%;
+}
+table, th, td {
+  color: white;
+  border-color: white;
+  margin-bottom: 0px;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+  margin: 0px;
+}
+h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+p {
+  color: white;
+  margin-top: 0px;
+}
+ul {
+  display: inline-block; text-align: left;
+  margin-bottom: 10px;
+}
+
+/*Classes */
+.head {
+  background-color: white;
+  background-size: contain;
+  color: pink;
+}
+.time {
+  color: pink;
+  font-size: 18px;
+  margin-top: 0px;
+  /*new CSS Property in Class*/
+  word-spacing: .30rem;
+}
+.hobbies {
+    text-align: center;
+    color: white
+}
+
+/*IDs */
+#about-me{
+  font-size: 16px;
+}
+#contact {
+  color: white;
+  margin-top: 0px;
+}
+#table {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  color: white;
+}
+#address{
+  font-size: 13px;
+}
+#more-info{
+  color: pink;
+  font-size: 25px;
+  background-color: white;
+}
+
+/*Link Editing*/
+a {
+  color: pink;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #555;
+}
