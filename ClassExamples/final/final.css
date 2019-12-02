@@ -1,8 +1,14 @@
 body {
   background-color: black;
 }
-
-h1 {
-  color: white;
-  background-color: black;
-}
+.grid1{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px,1fr));
+  justify-content: center;
+  grid-row-gap: 0px;}
+#photo1 img{
+  width:100%;}
+#photo2 img{
+  width: 100%;}
+#photo3 img {
+  width: 100%}
