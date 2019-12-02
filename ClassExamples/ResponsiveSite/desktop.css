@@ -8,60 +8,97 @@ body {
   display: grid;
   background-color: #FFFF66;
   font-family: 'Fjalla One', sans-serif;
-}
+  width: 100%;
+  height:100%;
+  margin: 0px;
+  padding: 0px;}
 
 h1 {
   text-align: center;
   color: black;
-  font-size: 50px;
+  font-size: 50px;}
+
+h2 {
+  text-align: center;
 }
 
-/*Subtitle: Supporting Alex Fig's Fight Against Ewig Sarcoma*/
-.title {
-  color: black;
-  font-size: 100px;
-}
-
+/*This is referring to "Supporting Alex Fig's Fight Against Ewig Sarcoma" title*/
 #grid1 {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
   background-color: white;
-  margin: 5px;
-}
+  margin: 0 auto;
+  margin-bottom: 5px;}
+
 /*FIRST ROW*/
-.row1 {
+.grid2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-
-
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  justify-content: center;
+  grid-gap: 5px;
+  grid-row-gap: 0px;}
+#box1 img{
+  width: 100%;}
 #box2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: white;
-  text-align: center;
-  margin: 10px;
-  display: inline;
-}
-
-
+  text-align: center;}
 #box3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: white;
-  text-align: center;
-  margin: 10px;
-  display: inline;
-}
+  text-align: center;}
+#box4 img{
+  width: 100%}
 
 
-#box4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: white;
-  text-align: center;
-  margin: 10px;
-  display: inline;
-}
+
+  /*SECOND ROW*/
+  #grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;}
+  #box5 {
+    display: grid;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    display: inline;}
+  #box6 {
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    display: inline;}
+
+
+    /*THIRD ROW*/
+    #grid4{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px,1fr));
+    justify-content: center;}
+    #box7 img{
+      width: 100%}
+    #box8 img{
+      width: 100%}
+    #box10 img {
+      width: 100%}
+
+      /*FOURTH ROW*/
+      #grid5{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;}
+      #box10{
+        display: grid;
+        text-align: center;
+        margin: 10px;
+        display: inline;
+        background-color: white;}
+        #box11{
+          display: grid;
+          text-align: center;
+          margin: 10px;
+          display: inline;
+          background-color: white;}
+          #box12{
+            display: grid;
+            text-align: center;
+            margin: 10px;
+            display: inline;
+            background-color: white;}
