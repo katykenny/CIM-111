@@ -72,13 +72,16 @@ h2 {
     #grid4{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(225px,1fr));
-    justify-content: center;}
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+    grid-row-gap: 0px;}
     #box7 img{
-      width: 100%}
+      width: 100%;}
     #box8 img{
-      width: 100%}
-    #box10 img {
-      width: 100%}
+      width: 100%;}
+    #box9 img {
+      width: 100%;}
 
       /*FOURTH ROW*/
       #grid5{
