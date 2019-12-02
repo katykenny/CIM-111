@@ -1,81 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Katy Kenny">
-    <meta name="description" content="This is Katy Kenny's Music">
-    <meta name="keywords" content="Katy Kenny, live music, musician, music">
+      <meta charset="UTF-8">
+      <meta name="author" content="Katy Kenny">
+      <meta name="description" content="This is Katy Kenny's Music">
+      <meta name="keywords" content="Katy Kenny, live music, musician, music">
     <title>Katy Kenny Music</title>
-    <link href="jqery.pagepiling.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="final.css">
+      <link rel="stylesheet" href="jquery.pagepiling.css">
+      <link rel="stylesheet" href="style.css">
   </head>
 <body>
-      <ul id="menu">
-        </ul>
-
-        <div class="pagepiling">
-            <div class="section" id="section1">
-
-            </div>
-            <div class="section" id="section2">
-
-            </div>
-            <div class="section" id="section3">
-
-            </div>
-            <div class="section" id="section4">
-
-            </div>
-        </div>
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript">
-      $(document).ready(function(){
-
-
-
-          });
-  </script>
-
-
-
-
-
-
-
-
-<img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/KatyKennyMusic.png?raw=true"
-alt="Katy Kenny Music" width="100%">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152836957-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-152836957-1');
-</script>
-
-
-
-<h1>About</h1>
-<section id="image1">
-  <img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/Images/finalpics/music-b&w.JPG?raw=true"
-  alt="Katy Kenny Live at Rockwood Music Hall">
-</section>
-
-
-    <div class="grid1">
-      <section id="image2">
-        <img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/Images/finalpics/music-pch.jpg?raw=true"
-        alt="Katy Kenny Live at The Peekskill Coffeehouse">
-      </section>
-
-      <section id="box1">
-        <h1>Something here </h1>
-
-      </section>
-
+  <div id="pagepiling">
+    	<div class="section">Some section</div>
+    	<div class="section">Some section</div>
+    	<div class="section">Some section</div>
+    	<div class="section">Some section</div>
     </div>
-
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="jquery.pagepiling2.js"></script>
+  <script type="text/javascript">
+        $(document).ready(function() {
+              $('#pagepiling').pagepiling();
+              });
+  </script>
   </body>
 </html>
