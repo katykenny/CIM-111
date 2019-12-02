@@ -16,15 +16,10 @@ h1 {
   font-size: 50px;
 }
 
+/*Subtitle: Supporting Alex Fig's Fight Against Ewig Sarcoma*/
 .title {
   color: black;
   font-size: 100px;
-}
-
-.title span {
-  font-weight: 300;
-  display: block;
-  font-size: 40px;
 }
 
 #grid1 {
@@ -34,15 +29,17 @@ h1 {
   background-color: white;
   margin: 5px;
 }
-
-.grid {
+/*FIRST ROW*/
+.row1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-#grid2 {
+
+
+#box2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: white;
   text-align: center;
   margin: 10px;
@@ -50,9 +47,9 @@ h1 {
 }
 
 
-#grid3 {
+#box3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: white;
   text-align: center;
   margin: 10px;
@@ -60,9 +57,9 @@ h1 {
 }
 
 
-#grid4 {
+#box4 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: white;
   text-align: center;
   margin: 10px;
