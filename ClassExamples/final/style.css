@@ -1,0 +1,35 @@
+h3{
+    color: #fff;
+    font-size: 48px;
+    font-family: Shrikhand;
+    margin: 0;
+}
+p {
+    font-family: Poppins;
+    line-height: 30px;
+    color: #fff;
+}
+nav{
+    position: absolute;
+    top: 0;
+    height: 50px;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+nav ul li{
+  display: inline-block;
+  padding: 15px 20px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: #fafafa;
+   font-family: Shikland;
+   letter-spacing: 1px;
+}
+.home-area{
+  background-image: url(KatyKennyMusic.png);
+  background-size: contain;
+  background-position: center center;
+}

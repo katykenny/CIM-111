@@ -11,17 +11,57 @@
   </head>
 <body>
   <div id="pagepiling">
-    	<div class="section">Some section</div>
-    	<div class="section">Some section</div>
-    	<div class="section">Some section</div>
-    	<div class="section">Some section</div>
+    	<div class="section home-area" id="home">
+          <div class="wrapper">
+            <nav>
+              <ul id="myMenu">
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#about">Home</a></li>
+                <li> <a href="#port">Home</a></li>
+                <li> <a href="#service">Home</a></li>
+                <li> <a href="#contact">Home</a></li>
+              </ul>
+            </nav>
+
+            <div class="banner-area">
+                <h2>Multipurpose <br>Website</h2>
+                <p>yuh</p>
+            </div>
+          </div>
+      </div>
+    	<div class="section about-area" id="about">
+        <div class="wrapper">
+          <h3>Little About Me</h3>
+          <p>yuh</p>
+        </div>
+      </div>
+    	<div class="section portfolio-area" id="port">
+        <h3>Some Works of Mine</h3>
+        <p>yuh</p>
+        </div>
+    	<div class="section services-area" id="service">
+        <h3>Some Works of Mine</h3>
+        <p>yuh</p>
+        </div>
+        <div class="section contact-area" id="contact">
+          <h3>contact area</h3>
+          <p>yuh</p>
+          <p> <input type="text" placeholder="Enter Your Name"></p>
+          <p> <input type="email" placeholder="Enter Your Email"></p>
+          <p> <textarea cols="30" rows="10" placeholder="Enter your
+            Queries"></textarea></p>
+          <p> <input type="submit" value="submit"> </p>
+        </div>
     </div>
-<script src="pagepiling.min.js"></script>
+
+
+  <script src="jquery-3.3.1.min.js"></script>
   <script src="jquery.pagepiling.js"></script>
-  <script type="text/javascript">
-        $(document).ready(function() {
-              $('#pagepiling').pagepiling();
-              });
+  <script>
+  $(document).ready(function() {
+$('#pagepiling').pagepiling();
+});
   </script>
+
   </body>
 </html>

@@ -1,59 +1,69 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Join Alex's Army</title>
-    <meta name="Alex's Army" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type= text/css href="desktop.css">
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
   </head>
   <body>
 
-<h1>ALEX'S ARMY</h1>
+<header>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#grid1">ABOUT</a></li>
+        <li><a href="#support">SUPPORT</a></li>
+        <li><a href="#community">COMMUNITY</a></li>
+        <li><a href="#footer">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
+<h1>ALEX'S ARMY</h1>
     <section id="grid1">
         <h4>Supporting Alex Figueroa's Fight Against Ewing Sarcoma</h4>
     </section>
 
 <main>
-<div class="grid2">
-
+  <section id="grid2">
   <section id="box1">
 <img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/Images/alex.army/alex.arms.png?raw=true"
 alt="Alex with Friends">
   </section>
     <section id="box2">
-      <div class="info">
         <h3>ABOUT ALEX</h3>
     <p>Alexandra Figueroa is 15 years old and a sophomore at Hendrick Hudson High School.
-      Alex is an honors student, an accomplished athlete, and a beautiful soul.
-      She is a loyal friend to so many, an amazing daughter and the most important
-      person in her younger sister Madison's life.</p>
-      </div>
+      She is a honors student, a three sport athlete- starring on her basketball, soccer,
+      and lacrosse teams- and a beautiful soul. Alex is a loyal friend to so many, an amazing daughter
+      to her parents Jennifer and Rick, and the most important person in her younger sister
+      Madison's life. </p>
   </section>
-
   <section id="box3">
-    <div class="info">
         <h3>HER FIGHT</h3>
         <p>On April 25, after discovering a mass on her shoulder that seemed to be growing rapidly,
           Alex was diagnosed with metastatic Ewing's Sarcoma. The cancer has metastasized to her
           lungs and Alex has been in aggressive chemotherapy and radiation for the past few months.
-          She has been admitted into Columbia Presbyterian for her treatments as to ensure
-          the proper medical supervision throughout. </p>
-    </div>
-  </section>
+          She has been admitted into Columbia Presbyterian for her treatments. </p>
+    </section>
 
   <section id="box4">
     <img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/Images/alex.army/alex.hospital.jpg?raw=true"
     alt="Alex Getting XRays">
   </section>
-    </div>
+    </section>
 
+<section id="support">
     <h2>SUPPORT</h2>
+    </section>
 
 <section id="grid3">
     <section id="box5">
-    <div class="info">
     <h3>DONATE</h3>
     <p>We are asking for your help because, Alex's parents
       need to focus all of their energy on helping her through these treatments.  We would like to
@@ -61,17 +71,14 @@ alt="Alex with Friends">
       much as possible.  Travel expenses alone have added up quickly, as Alex has spent
       at least 8 days of every month in the hospital. Financial aid can be contributed via
       <a href="https://www.gofundme.com/f/alex039s-army">GoFundMe</a>!</p>
-    </div>
     </section>
 
     <section id="box6">
-    <div class="info">
     <h3>JOIN ALEX'S FUNDRAISING ARMY ON FACEBOOK</h3>
     <p>This group was created keep track of all the amazing fundraising efforts done by Alex's Army.
       So many people are have come together, and we would like this group to be a safe space where our community can
       support one another. <br>
       <a href="https://www.facebook.com/groups/2182904765096768/?ref=share">Join now</a>!</p>
-    </div>
     </section>
   </section>
 
@@ -84,11 +91,6 @@ alt="Alex with Friends">
     <section id="box8">
     <img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/Images/alex.army/SWFA.JPG?raw=true"
     alt="Callie Pidoriano supporting Alex at NY State Championship volleyball game">
-    </section>
-
-    <section id="box9">
-      <img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/Images/alex.army/LOGO.JPG?raw=true"
-      alt="Alex's Army Logo">
     </section>
 
     <section id="box10">
@@ -104,19 +106,18 @@ alt="Alex with Friends">
 </section>
 
 
-
-<h2>COMMUNITY</h2>
+<section id="community">
+  <h2>COMMUNITY</h2>
+</section>
 <section id="grid5">
   <section id="box12">
-    <div class="info">
       <h3>MEDIA COVERAGE</h3>
-      <p>Lohud<br>
+      <p><i>Lohud</i><br>
       <a href="https://www.lohud.com/story/sports/high-school/lohud-girls-basketball/2019/05/01/hendrick-hudson-alex-figueroa-diagnosed-cancer/3632612002/">
       "Girls Basketball: 'Alex's Army' Rallies Around Hen Hud Freshman Diagnosed with Cancer"</a></p>
-      <p>News 12 Westchester<br>
+      <p><i>News 12 Westchester</i><br>
       <a href="http://westchester.news12.com/story/40607182/community-rallies-around-student-diagnosed-with-rare-cancer">
       "Community Rallies Around Student Diagnosed with Rare Cancer"</a></p>
-    </div>
   </section>
 
   <section id="box13">
@@ -126,7 +127,6 @@ alt="Alex with Friends">
   </section>
 
   <section id="box14">
-    <div class="info">
       <h3>SOCIAL MEDIA</h3>
       <p>Follow us on <br>
         <a href="https://www.instagram.com/fund.alexs.fight/">Instagram</a><br>
@@ -135,18 +135,20 @@ alt="Alex with Friends">
         Follow us on <br>
       <a href="https://twitter.com/AlexsFund?s=20">Twitter</a> <br>
         Follow us on <br>
-        <a href="https://www.facebook.com/groups/2182904765096768/?ref=share">Facebook</a></p>
-
-    </div>
+        <a href="https://www.facebook.com/groups/2182904765096768/?ref=share">Facebook</a> <br>
+        Follow Rick on <br>
+        <a href="https://www.facebook.com/ricky.figueroa.944">Facebook</a> <br>
+        for updates on Alex's progress</p>
   </section>
 </section>
 </main>
 
-
+<section id="footer">
 <footer>
-      If you have any questions about Alex or how you can help, <a href="mailto:kgk22@miami.edu">contact us</a>!
+      If you have any questions about Alex or how you can help, <br>
+      click <a href="mailto:kgk22@miami.edu">here</a> to contact us!
 </footer>
-
+</section>
 
   </body>
 </html>

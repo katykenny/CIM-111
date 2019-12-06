@@ -11,7 +11,7 @@ nav ul{
   list-style: none;}
 nav li{
   display: inline-block;
-  margin: 0px 50px;
+  margin: 0px 100px;
   padding-top: 10px;
   position: relative;}
 nav a{
@@ -29,7 +29,7 @@ main{
   padding-top: 20px;
   padding-bottom: 20px;}
 footer{
-  width: 100%;
+  width: 960px;
   align-items: center;
   background-color: black;
   color: white;
