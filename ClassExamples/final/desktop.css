@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap');
+
+
+body{
+  font-family: 'Anton', sans-serif;
+  width: 960px;}
+
+h1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Racing Sans One', cursive;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 5px;}
+
+p {
+    font-family: 'Bebas Neue', cursive;}
+
+nav{
+    position: center;
+    top: 0;
+    text-align: center;
+    font-size: 40px; }
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 1px 1px 2px black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 220px;
+  word-spacing: 100px;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   letter-spacing: 1px;}
+
+nav a:hover{
+  opacity: 50%}
+
+.home-area{
+  background-image: url(Images/KatyKennyMusic.png);
+  background-position: center center;
+  text-align: center;}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;}
+
+.banner-area p{
+  padding: 0 60% 0 0;
+  text-align: center;}
+
+  #grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: none;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;}
+
+    #insta img {
+      width: 80%}
+    #facebook img{
+      width: 80%;}
+    #youtube img{
+      width: 80%}
+    #twitter img{
+      width: 80%}
+
+.about-area{
+  background-image: url(Images/dramatic.jpg);
+  background-size: cover;
+}
+
+#grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: none;}
+  #pic1 img{
+    width: 100%;
+    justify-content: right;}
+  #bio {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;}
+  #pic2 img{
+    width: 100%;
+    justify-content: left;}
+
+.music-area{
+    background-image: url(Images/sky.jpg);
+    background-size: cover;
+    background-position: cover cover;}
+
+#grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+  grid-column-gap: 5px;}
+      #soundcloud1 {
+        font-size: 30px;
+      padding-right: 10px;
+      padding-bottom: 20px;}
+      #soundcloud2 {
+        font-size: 30px;
+        padding-left: 10px;
+        padding-bottom: 10px;}
+      #youtube1{
+        font-size: 30px;}
+      #youtube2{
+        font-size: 30px;}
+
+
+.shows-area{
+  background-image: url(Images/music-b&w.JPG);
+  background-size: cover;
+  text-align: center;}
+
+  .shows-area h1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Racing Sans One', cursive;
+    text-align: right;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: absolute;
+    top: 8px;
+    right: 50px;
+  }
+
+.shows-area p{
+  text-align: right;
+  color: white;
+  font-size: 50px;
+  padding-top: 0px;
+  margin-bottom: 50px;
+  position: absolute;
+  top: 100px;
+  right: 50px;}
+
+a{
+  text-decoration: none;
+  color: #CD5C5C}
+a:hover{
+  opacity: 50%}
+
+.contact-area{
+  background-image: url(Images/music-piano.JPG);
+  background-position: left;}
+
+.contact-area p{
+    color: white;
+    font-size: 30px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 3px black;}
+
+.contact-area input[type=text], .contact-area input[type=email]{
+    width: 30%;
+    height: 40px;
+    padding: 0 20px;}
+
+.contact-area textarea {
+  width: 30%;
+  padding: 10px 20px;}
+
+.contact-area input[type=submit]{
+  background: white;
+  padding: 10px 50px;
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: 0;}
