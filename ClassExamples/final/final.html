@@ -5,6 +5,7 @@
       <meta name="author" content="Katy Kenny">
       <meta name="description" content="This is Katy Kenny's Music">
       <meta name="keywords" content="Katy Kenny, live music, musician, music">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Katy Kenny Music</title>
       <link rel="stylesheet" href="jquery.pagepiling.css">
       <link rel="stylesheet" href="style.css">
@@ -17,7 +18,7 @@
               <ul id="myMenu">
                 <li data-menuanchor="home" class="active"> <a href="#home">HOME</a></li>
                 <li data-menuanchor="about" class="active"> <a href="#about">ABOUT</a></li>
-                <li data-menuanchor="port" class="active"> <a href="#port">MUSIC</a></li>
+
                 <li data-menuanchor="service" class="active"> <a href="#service">SHOWS</a></li>
                 <li data-menuanchor="contact" class="active"> <a href="#contact">CONTACT</a></li>
               </ul>
@@ -37,23 +38,6 @@
             </div>
           </section>
         </div>
-      </div>
-    <div class="section portfolio-area" id="port">
-          <div class="wrapper">
-                <h3>Music</h3>
-                <div id="grid3">
-                  <div id="youtube1">
-                    <iframe width="560" height="315" SameSite="none; Secure" src="https://www.youtube.com/embed/vp6-ZZG-kw8"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                  </div>
-                  <div id="youtube2">
-                    <iframe width="560" height="315" SameSite="none; Secure" src="https://www.youtube.com/embed/d7NrRke3nLE"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                  </div>
-                </div>
-          </div>
       </div>
     <div class="section services-area" id="service">
           <div class="wrapper">
@@ -82,7 +66,7 @@
         $('#pagepiling').pagepiling({
           direction: 'horizontal',
           sectionsColor: ['#f2f2f2', 'black', 'white', 'black', '#2F4F4F'],
-          anchors: ['home', 'about', 'portfolio', 'service', 'contact'],
+          anchors: ['home', 'about', 'service', 'contact'],
           menu: '#myMenu',
           navigation: {
            'textColor': '#000',
