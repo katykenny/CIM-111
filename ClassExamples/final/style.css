@@ -1,35 +1,162 @@
-h3{
-    color: #fff;
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+
+body{
+  font-family: 'Anton', sans-serif;}
+
+#myMenu{
+  text-align: center;}
+
+h1{
+    color: white;
     font-size: 48px;
-    font-family: Shrikhand;
-    margin: 0;
-}
+    font-family: 'Anton', sans-serif;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;}
+
 p {
-    font-family: Poppins;
-    line-height: 30px;
-    color: #fff;
-}
+    font-family: 'Anton', sans-serif;
+    line-height: 30px;}
+
 nav{
     position: absolute;
     top: 0;
-    height: 50px;
-}
+    height: 50px;}
+
 nav ul{
   list-style: none;
   padding: 0;
-}
+  text-align: center;}
+
 nav ul li{
   display: inline-block;
   padding: 15px 20px;
-}
+  text-align: center;}
+
 nav ul li a{
    text-decoration: none;
    color: #fafafa;
-   font-family: Shikland;
+   text-align: center;
    letter-spacing: 1px;
-}
+   text-align: center;}
+
+nav ul li .active{
+  text-align: center;}
+
 .home-area{
   background-image: url(Images/KatyKennyMusic.png);
-  background-size: contain;
+  background-size: center;
   background-position: center center;
+  text-align: center;}
+
+.home-area h2{
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    text-align: center;}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;}
+
+.banner-area p{
+  padding: 0 60% 0 0;
+  text-align: center;}
+
+#grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5px;}
+  #bio {
+    font-size: 30px;
+    color: white;
+    width: 30%;
+    margin-left: 200px;}
+  #pic1 img{
+    width: 75%;
+    justify-content: left;}
+
+  .portfolio-area{
+    background-image: url(Images/teap.png);
+    background-position: center;
+  }
+
+#container{
+  display: grid;
+  grid-template-columns: 1fr, 1fr,;
+  grid-auto-columns: 1fr, 1fr;
+  margin-bottom: 0px;
+  grid-template-rows: 1fr;
 }
+#soundcloud1{
+  display: grid;
+  display: inline;
+  width: 50%;
+}
+#soundcloud2{
+  display: grid;
+  display: inline;
+  width: 50%;
+}
+
+#grid3{
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  margin-bottom: 0px;
+  grid-template-rows: 1fr;
+}
+
+#youtube1{
+  display: grid;
+  width: 50%;
+  display: inline;
+}
+
+#youtube2{
+  display: grid;
+  width: 50%;
+  display: inline;
+}
+
+
+
+.services-area{
+  background-image: url(Images/music-b&w.JPG);
+  background-size: cover;
+  text-align: center;}
+
+.services-area p{
+  text-align: right;
+  margin-right: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+.contact-area{
+  background-image: url(Images/music-piano.JPG);
+  background-position: left;
+}
+
+.contact-area input[type=text], .contact-area input[type=email]{
+    width: 30%;
+    height: 40px;
+    padding: 0 20px;}
+
+.contact-area textarea {
+  width: 30%;
+  padding: 10px 20px;}
+
+.contact-area input[type=submit]{
+  background: white;
+  padding: 10px 50px;
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: 0;}

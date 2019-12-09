@@ -1,0 +1,29 @@
+@media only screen and (max-width: 767px) {
+  .wrapper{
+    width: 90%;
+  }
+  nav{
+    display: none;
+  }
+  .home-area h2{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  .banner-area p{
+    padding: 0 12% 0 0;
+  }
+  .about-area p, .portfolio-area p, .services-area p, .contact-area p{
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .contact-area input[type=text], .contact-area input[type=email]{
+      width: 85%;
+      height: 30px;
+  }
+  .contact-area textarea{
+    width: 85%;
+  }
+
+}

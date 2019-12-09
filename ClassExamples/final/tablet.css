@@ -1,0 +1,11 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wrapper{
+      width: 90%;}
+      .contact-area input[type=text], .contact-area input[type=email]{
+          width: 85%;
+          height: 30px;
+      }
+      .contact-area textarea{
+        width: 85%;
+      }
+}
