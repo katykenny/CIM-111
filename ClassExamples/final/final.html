@@ -30,7 +30,21 @@
           <h1>About</h1>
           <section id="grid1">
             <div id="bio">
-                <p>Katy Kenny is a blah blah blah</p>
+                <p>Katy Kenny is a New York City based singer/songwriter.
+                  Her style is described as high energy alternative rock,
+                  with hints of pop & indie styles. Using her powerful mezzo
+                  soprano voice and profound lyrics, she engages audiences
+                  to listen to her sometimes hilarious, sometimes heartbreaking
+                  stories through song. Her influence spans across genres, from
+                  artists like Nirvana, Radiohead, Elton John and The Beatles,
+                  to modern artists like Paramore, The 1975 and Demi Lovato.
+                  While currently enrolled in the University of Miami's Frost
+                  School of Music, she is studying musicianship, artistry
+                  development, and entrepreneurship with an emphasis in both
+                  music business and songwriting.
+                </p>
+                <p>If you want to keep up with her musical adventures, be sure to follow her
+                on social media!</p>
             </div>
             <div id="pic1">
               <img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/final/Images/pch.png?raw=true"
@@ -63,7 +77,6 @@
               frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
             </div>
-
           </section>
         </div>
       </div>
@@ -93,14 +106,14 @@
           $(document).ready(function() {
         $('#pagepiling').pagepiling({
           direction: 'horizontal',
-          sectionsColor: ['#f2f2f2', 'black', 'white', 'black', '#2F4F4F'],
+          sectionsColor: ['#f2f2f2', 'black', 'white', 'black', 'white'],
           anchors: ['home', 'about', 'music','shows', 'contact'],
           menu: '#myMenu',
           navigation: {
            'textColor': '#000',
-           'bulletsColor': '#000',
+           'bulletsColor': 'white',
            'position': 'right',
-           'tooltips': ['Home', 'About', 'Music', 'Shows', 'Contact']
+           'tooltips': ['HOME', 'ABOUT', 'MUSIC', 'SHOWS', 'CONTACT']
        }
         });
       });

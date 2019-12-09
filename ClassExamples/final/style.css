@@ -1,54 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
 
 
 body{
   font-family: 'Anton', sans-serif;
   width: 960px;}
 
-#myMenu{
-  text-align: center;}
-
 h1{
     color: white;
     font-size: 48px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     text-align: left;
     margin-left: 200px;
     margin-top: 0px;
     margin-bottom: 0px;}
 
 p {
-    font-family: 'Anton', sans-serif;}
+    font-family: 'Cutive Mono', monospace;}
 
 nav{
-    position: absolute;
-    top: 0;
-    height: 50px;}
-
-nav ul{
-  list-style: none;
-  padding: 0;
-  text-align: center;}
+    position: center;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px; }
 
 nav ul li{
   display: inline-block;
   padding: 15px 20px;
-  text-align: center;}
+  font-family: 'Bebas Neue', cursive;
+  opacity: 95%;}
 
 nav ul li a{
    text-decoration: none;
-   color: #fafafa;
-   text-align: center;
-   letter-spacing: 1px;
-   text-align: center;}
+   color: white; }
 
-nav ul li .active{
-  text-align: center;}
+nav a:hover{
+  opacity: 50%}
 
 .home-area{
   background-image: url(Images/KatyKennyMusic.png);
-  background-size: center;
   background-position: center center;
   text-align: center;}
 
@@ -64,18 +55,23 @@ nav ul li .active{
 #grid1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 5px;}
+  background-color: none; }
   #bio {
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    width: 30%;
-    margin-left: 200px;}
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 40px;}
   #pic1 img{
-    width: 75%;
+    width: 80%;
     justify-content: left;}
 
-.music-area{
-  background-color: black;}
+.music{
+  background-image: url(sky.JPG);
+  background-size: center;
+  background-position: center center;
+}
 
 #grid2 {
   display: grid;
