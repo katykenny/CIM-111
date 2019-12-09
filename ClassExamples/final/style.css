@@ -85,7 +85,7 @@ nav ul li .active{
     background-position: center;
   }
 
-#container{
+#grid2{
   display: grid;
   grid-template-columns: 1fr, 1fr,;
   grid-auto-columns: 1fr, 1fr;
@@ -107,7 +107,7 @@ nav ul li .active{
   display: grid;
   grid-template-columns: 1fr, 1fr;
   margin-bottom: 0px;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 #youtube1{
