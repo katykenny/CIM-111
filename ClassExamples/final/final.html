@@ -18,8 +18,8 @@
               <ul id="myMenu">
                 <li data-menuanchor="home" class="active"> <a href="#home">HOME</a></li>
                 <li data-menuanchor="about" class="active"> <a href="#about">ABOUT</a></li>
-
-                <li data-menuanchor="service" class="active"> <a href="#service">SHOWS</a></li>
+                <li data-menuanchor="music" class="active"> <a href="#music">MUSIC</a></li>
+                <li data-menuanchor="shows" class="active"> <a href="#shows">SHOWS</a></li>
                 <li data-menuanchor="contact" class="active"> <a href="#contact">CONTACT</a></li>
               </ul>
             </nav>
@@ -39,7 +39,35 @@
           </section>
         </div>
       </div>
-    <div class="section services-area" id="service">
+      <div class="section music-area" id="music">
+        <div class="wrapper">
+          <h2>MUSIC</h2>
+          <section id="grid2">
+            <div id="soundcloud1">
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/491648334&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+            <div id="soundcloud2">
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/541040706&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+
+            <div id="youtube1">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/vp6-ZZG-kw8"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+              picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div id="youtube2">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/d7NrRke3nLE"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    <div class="section shows-area" id="shows">
           <div class="wrapper">
                 <h3>UPCOMING SHOWS</h3>
                 <p>December 28th at <a href="https://peekskillcoffee.com/pages/contact-us">The Peekskill Coffeehouse</a></p>
@@ -66,7 +94,7 @@
         $('#pagepiling').pagepiling({
           direction: 'horizontal',
           sectionsColor: ['#f2f2f2', 'black', 'white', 'black', '#2F4F4F'],
-          anchors: ['home', 'about', 'service', 'contact'],
+          anchors: ['home', 'about', 'music','shows', 'contact'],
           menu: '#myMenu',
           navigation: {
            'textColor': '#000',

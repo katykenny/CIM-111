@@ -74,63 +74,40 @@ nav ul li .active{
     width: 75%;
     justify-content: left;}
 
-.grid-container{
-  display: grid;
-  width: 960px;
-  grid-template-columns: 480px, 480px;
-  margin-bottom: 0px;
-  grid-template-rows: 1fr, 1fr;
-}
-.soundcloud1{
-  display: grid;
-  display: inline;
-  grid-column: 1fr;
-  width: 480px;
-}
-.soundcloud2{
-  display: grid;
-  display: inline;
-  grid-row: 1fr;
-  width: 480px;
-}
+.music-area{
+  background-color: black;}
 
-.youtube1{
+#grid2 {
   display: grid;
-  width: 50%;
-  grid-column: 1fr;
-  display: inline;
-  width: 480px;
-}
-
-.youtube2{
-  display: grid;
-  width: 50%;
-  grid-column: 1fr;
-  display: inline;
-  width: 480px;
-}
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5px;}
+      #soundcloud1 {
+        font-size: 30px;}
+      #soundcloud2 {
+        font-size: 30px;}
+      #youtube1{
+        font-size: 30px;}
+      #youtube2{
+        font-size: 30px;}
 
 
 
-.services-area{
+.shows-area{
   background-image: url(Images/music-b&w.JPG);
   background-size: cover;
   text-align: center;}
 
-.services-area p{
+.shows-area p{
   text-align: right;
-  margin-right: 50px;
-}
+  margin-right: 50px;}
 
 a{
   text-decoration: none;
-  color: gray;
-}
+  color: gray;}
 
 .contact-area{
   background-image: url(Images/music-piano.JPG);
-  background-position: left;
-}
+  background-position: left;}
 
 .contact-area input[type=text], .contact-area input[type=email]{
     width: 30%;
