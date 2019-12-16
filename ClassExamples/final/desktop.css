@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap');
 
 
@@ -54,6 +51,10 @@ nav a:hover{
   background-image: url(Images/KatyKennyMusic.png);
   background-position: center center;
   text-align: center;}
+
+#mobile-image img{
+  display: none;
+}
 
 .wrapper{
     width: 1170px;
@@ -109,27 +110,26 @@ nav a:hover{
     justify-content: left;}
 
 .music-area{
-    background-image: url(Images/jamming.jpg);
+    background-image: url(Images/full-band.jpg);
     background-size: cover;
     background-position: cover cover;}
 
 #grid3 {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
   padding-top: 20px;
   grid-column-gap: 5px;}
       #soundcloud1 {
         font-size: 30px;
-      padding-right: 10px;
+      padding-right: 20px;
       padding-bottom: 20px;}
       #soundcloud2 {
         font-size: 30px;
-        padding-left: 10px;
+        padding-left: 20px;
         padding-bottom: 10px;}
-      #youtube1{
-        font-size: 30px;}
-      #youtube2{
-        font-size: 30px;}
+      #youtube1{ }
+      #youtube2{}
 
 
 .shows-area{
@@ -196,3 +196,8 @@ a:hover{
   font-size: 17px;
   text-transform: uppercase;
   border: 0;}
+
+.contact-area input[type=submit]:hover{
+  background-color: #C0C0C0;
+  cursor: pointer;
+}

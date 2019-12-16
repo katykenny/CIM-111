@@ -1,29 +1,189 @@
-@media only screen and (max-width: 767px) {
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap');
+
   .wrapper{
-    width: 90%;
-  }
-  nav{
-    display: none;
-  }
-  .home-area h2{
-    font-size: 25px;
-  }
-  h3{
-    font-size: 30px;
-  }
-  .banner-area p{
-    padding: 0 12% 0 0;
-  }
-  .about-area p, .portfolio-area p, .services-area p, .contact-area p{
-    line-height: 20px;
-    font-size: 13px;
-  }
-  .contact-area input[type=text], .contact-area input[type=email]{
-      width: 85%;
-      height: 30px;
-  }
-  .contact-area textarea{
-    width: 85%;
+    width: 100%;
+    text-align: center;
   }
 
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Racing Sans One', cursive;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 5px;}
+
+#mobile-image img{
+  width: 100%;
+}
+
+nav{
+    position: center;
+    top: 0;
+    text-align: center;
+    font-size: 21px; }
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 1px 1px 2px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+  align-items: center;
+  text-align: center;
+  margin-right: 50px;}
+
+nav a:hover{
+  opacity: 50%}
+
+  #grid1 {
+    display: grid;
+    position: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: none;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;}
+
+    #insta img {
+      width: 100%}
+    #facebook img{
+      width: 100%;}
+    #youtube img{
+      width: 100%}
+    #twitter img{
+      width: 100%}
+
+.about-area{
+  background-image: url(Images/dramatic.jpg);
+  background-size: cover;
+}
+.about-area h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;}
+  #pic1 img{
+    display: none;}
+  #bio {
+    font-size: 18px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;}
+  #pic2 img{
+    width: 50%;
+    justify-content: right;}
+
+.music-area{
+    background-image: url(Images/full-band.jpg);
+    background-size: cover;
+    background-position: cover cover;}
+
+.music-area h1{
+  margin-left: auto;
+  margin-right: auto;
+}
+#grid3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+      #soundcloud1 {
+        display: none;
+      }
+      #soundcloud2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #youtube1 {
+      margin-left: auto;
+      margin-right: auto; }
+      #youtube2 {
+      margin-left: auto;
+      margin-right: auto;}
+      }
+
+.shows-area{
+  background-image: url(Images/music-b&w.JPG);
+  background-size: cover;
+  text-align: center;}
+
+  .shows-area h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Racing Sans One', cursive;
+    text-align: right;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+  }
+
+.shows-area p{
+  text-align: right;
+  color: white;
+  font-size: 30px;
+  padding-top: 0px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 1px 1px 2px black;}
+
+a{
+  text-decoration: none;
+  color: #CD5C5C}
+a:hover{
+  opacity: 50%}
+
+.contact-area{
+  background-image: url(Images/music-piano.JPG);
+  background-position: left;}
+
+.contact-area p{
+    color: white;
+    font-size: 30px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 3px black;}
+
+.contact-area input[type=text], .contact-area input[type=email]{
+    width: 30%;
+    height: 40px;
+    padding: 0 20px;}
+
+.contact-area textarea {
+  width: 30%;
+  padding: 10px 20px;}
+
+.contact-area input[type=submit]{
+  background: white;
+  padding: 10px 50px;
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: 0;}
+
+.contact-area input[type=submit]:hover{
+  background-color: #C0C0C0;
+  cursor: pointer;
 }

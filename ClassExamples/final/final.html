@@ -11,12 +11,17 @@
       <!-- Media query for narrow browser width -->
       <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
       <!-- Media query for full browser width -->
-      <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+      <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">``
   </head>
 <body>
   <div id="pagepiling">
     	<div class="section home-area" id="home">
           <div class="wrapper">
+
+            <div id="mobile-image">
+              <img src="https://github.com/katykenny/CIM-111/blob/master/ClassExamples/final/Images/KatyKennyMusic.png?raw=true"
+               alt="Katy Kenny Music Banner">
+               
             <nav>
               <ul id="myMenu">
                 <li data-menuanchor="home" class="active"> <a href="#home">HOME</a></li>
@@ -26,6 +31,9 @@
                 <li data-menuanchor="contact" class="active"> <a href="#contact">CONTACT </a></li>
               </ul>
             </nav>
+
+            </div>
+
             <section id="grid1">
               <div id="insta">
                 <a href="https://www.instagram.com/katykennymusic/">
@@ -89,22 +97,22 @@
           <h1>MUSIC</h1>
           <section id="grid3">
             <div id="soundcloud1">
-                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                <iframe width="100%" scrolling="no" frameborder="no" allow="autoplay"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/491648334&color=%238c748c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             </div>
             <div id="soundcloud2">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+            <iframe width="100%" scrolling="no" frameborder="no" allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/541040706&color=%238c748c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             </div>
 
             <div id="youtube1">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/vp6-ZZG-kw8"
+              <iframe src="https://www.youtube.com/embed/vp6-ZZG-kw8"
               frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
               picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div id="youtube2">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/d7NrRke3nLE"
+              <iframe src="https://www.youtube.com/embed/d7NrRke3nLE"
               frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
             </div>
@@ -125,11 +133,21 @@
           <div class="wrapper">
                 <h1>CONTACT</h1>
 
-              </section>
-              <p> <input type="text" placeholder="NAME"></p>
-              <p> <input type="email" placeholder="EMAIL"></p>
-              <p> <textarea cols="30" rows="10" placeholder="MESSAGE"></textarea></p>
-              <p> <input type="submit" value="submit"> </p>
+                <div class="contact-form">
+                  <form id="contact-form" action="contact-form-handler.php" method="post">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    <br>
+                    <input type="email" name="email" class="form-control" placeholder="Your Eamil" required>
+                    <br>
+                    <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+                    <br>
+                    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                  </form>
+
+                </div>
+
+
+            </div>
         </div>
 
         <section id="grid1">
@@ -171,7 +189,7 @@
           $(document).ready(function() {
         $('#pagepiling').pagepiling({
           direction: 'horizontal',
-          sectionsColor: ['#f2f2f2', '#800000', 'black', 'black', 'white'],
+          sectionsColor: ['black', '#800000', 'black', 'black', 'white'],
           anchors: ['home', 'about', 'music','shows', 'contact'],
           menu: '#myMenu',
           navigation: {
